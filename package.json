@@ -1,0 +1,48 @@
+{
+  "name": "fun-times-with-tbones",
+  "description": "Fun Times with T-Bone",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Tyler Bennett <tylerbennett2905@gmail.com>",
+  "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "autoprefixer": "^9.8.6",
+    "gatsby": "^2.24.53",
+    "gatsby-plugin-manifest": "^2.4.27",
+    "gatsby-plugin-offline": "^3.2.26",
+    "gatsby-plugin-postcss": "^2.3.11",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sharp": "^2.6.31",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-lukebennett": "0.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "gatsby-plugin-eslint": "2.0.8",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build:serve": "yarn build && yarn serve",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop --host=0.0.0.0 --open",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "yarn develop",
+    "serve": "gatsby serve --host=0.0.0.0 --open"
+  }
+}
