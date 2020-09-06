@@ -23,9 +23,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.green['200'],
         display: 'minimal-ui',
-        theme_color: fullConfig.theme.colors.teal['400'],
-        display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: 'src/images/favicon.png',
       },
     },
     {
